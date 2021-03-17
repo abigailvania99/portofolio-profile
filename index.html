@@ -17,28 +17,66 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 .isi{
   background-color: aliceblue;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#009688;
+}
+
 </style>
 <body class="w3-light-grey">
-
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#pendidikan">Pendidikan</a></li>
+    <li><a href="#pengalamankerja">Pengalaman Kerja</a></li>
+    <li><a href="#organisasi">Organisasi</a></li>
+    <li><a href="#prestasi">Prestasi</a></li>
+    <li><a href="#portofolio">Portofolio</a></li>
+    <li><a href="#sertifikat">Sertifikat</a></li>
+  </ul>
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
-
+  <section id="home">
+    <br><br><br>
+  </section>
   <!-- The Grid -->
   <div class="w3-row-padding">
   
     <!-- Left Column -->
     <div class="w3-third">
-    
+      
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="abigail.jpeg" style="width:100%" alt="Avatar">
+          <img src="abigail.jpeg" style="width:100%" >
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <div class="first">
               <h2 style="font-weight: bold;">Abigail Vania</h2>
             </div>
           </div>
         </div>
+        
         <div class="w3-container">
+          
           <p class="w3-large"><b><i class="fa fa-user fa-fw w3-margin-right w3-text-teal"></i>Profil</b></p>
           <div class="isi">
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Mahasiswa Teknik Informatika dan Matematika</p>
@@ -367,7 +405,26 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Sertifikat</h2>
         
+        <div class="w3-container">
+          <div class="isi">
+          <h5 class="w3-opacity"><b>Excellence Course Dasar Statistika untuk Data Science / Skill Academy</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2021</h6>
+            <p>Telah lulus ujian dasar statistika untuk data science dengan menggunakan R di skill academy.</p>
+          <p><a href="https://drive.google.com/file/d/1ffHa6ZL6yXVdV_6qdBZAFwaxSvBPbS4S/view?usp=sharing" target="_blank">Sertifikat Excellence Course Dasar Statistika untuk Data Science</a></p>
+          </div>
+          <hr>
+        </div>
         
+        <div class="w3-container">
+          <div class="isi">
+          <h5 class="w3-opacity"><b>Completion Course Dasar Statistika untuk Data Science / Skill Academy</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2021</h6>
+            <p>Telah menyelesaikan materi dasar statistika untuk data science dengan menggunakan R di skill academy.</p>
+          <p><a href="https://drive.google.com/file/d/1gSf8SPrDQl5IeNE4vu88dcCHlDFvEvH0/view?usp=sharing" target="_blank">Sertifikat Excellence Course Data Analisis dengan Google Data Studio</a></p>
+          </div>
+          <hr>
+        </div>
+
         <div class="w3-container">
           <div class="isi">
           <h5 class="w3-opacity"><b>Excellence Course Data Analisis dengan Google Data Studio / Skill Academy</b></h5>
